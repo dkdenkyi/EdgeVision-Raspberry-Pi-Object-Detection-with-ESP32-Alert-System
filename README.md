@@ -76,8 +76,19 @@ Camera → Raspberry Pi → Detection → MQTT → ESP32 → LED
 ---
 
 ## 🔮 Future Improvements
+🔔 Add buzzer or multiple output devices
+📱 Mobile notifications (via cloud integration)
+📊 Dashboard for monitoring detections
+🧠 Custom-trained object detection model
+☁️ Cloud logging and analytics
 
-This system can be enhanced by fine-tuning the object detection model on a custom dataset to improve accuracy for domain-specific objects and reduce false detections. Performance can also be improved by optimizing inference for Raspberry Pi using lighter architectures or hardware acceleration (e.g., OpenCV optimizations or TensorFlow Lite conversion). 
+---
+
+📌 Use Cases
+Smart surveillance systems
+Industrial monitoring
+Smart home automation
+Object-triggered alert systems
 
 ## 📌 Author
-dkdenkyi
+Kojo Denkyi
