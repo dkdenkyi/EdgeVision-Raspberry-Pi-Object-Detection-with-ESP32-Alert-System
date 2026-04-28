@@ -40,14 +40,25 @@ python src/detector.py
 
 ## 🔌 MQTT Setup
 ```bash
+sudo apt update
 sudo apt install mosquitto mosquitto-clients
+sudo systemctl enable mosquitto
 sudo systemctl start mosquitto
 ```
 
 ---
 
 ## 🔧 ESP32
-Upload `esp32/led_control.ino` and configure WiFi + MQTT.
+- Open esp32/led_control.ino in Arduino IDE
+- Install required libraries (WiFi, PubSubClient)
+
+- Update:
+    WiFi credentials
+    MQTT broker IP
+    Topic name
+
+- Upload code to ESP32.
+
 
 ---
 
@@ -55,6 +66,10 @@ Upload `esp32/led_control.ino` and configure WiFi + MQTT.
 Camera → Raspberry Pi → Detection → MQTT → ESP32 → LED
 
 ---
+
+## 🔮 Future Improvements
+
+This system can be enhanced by fine-tuning the object detection model on a custom dataset to improve accuracy for domain-specific objects and reduce false detections. Performance can also be improved by optimizing inference for Raspberry Pi using lighter architectures or hardware acceleration (e.g., OpenCV optimizations or TensorFlow Lite conversion). 
 
 ## 📌 Author
 dkdenkyi
