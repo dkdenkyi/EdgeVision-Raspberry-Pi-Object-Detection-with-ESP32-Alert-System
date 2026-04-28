@@ -53,8 +53,8 @@ sudo systemctl start mosquitto
 - Install required libraries (WiFi, PubSubClient)
 
 - Update:
-    WiFi credentials
-    MQTT broker IP
+    WiFi credentials,
+    MQTT broker IP,
     Topic name
 
 - Upload code to ESP32.
@@ -64,6 +64,14 @@ sudo systemctl start mosquitto
 
 ## ⚡ Workflow
 Camera → Raspberry Pi → Detection → MQTT → ESP32 → LED
+
+## ⚡ How It Works
+1. Camera captures live video feed
+2. Model processes each frame in real time
+3. If target object is detected:
+   - MQTT message is published
+5. ESP32 receives the message and:
+   - Blinks LED as an alert
 
 ---
 
