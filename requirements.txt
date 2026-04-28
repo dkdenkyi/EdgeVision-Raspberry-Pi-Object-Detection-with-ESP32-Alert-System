@@ -1,0 +1,14 @@
+# Core libraries
+numpy>=1.21.0
+
+# Computer vision + DNN inference (Caffe model support)
+opencv-python>=4.5.0
+
+# MQTT communication between Raspberry Pi and ESP32
+paho-mqtt>=1.6.0
+
+# Utilities for image processing and performance
+imutils>=0.5.4
+
+# Optional configuration handling
+PyYAML>=6.0

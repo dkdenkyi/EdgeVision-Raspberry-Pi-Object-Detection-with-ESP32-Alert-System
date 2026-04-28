@@ -25,8 +25,13 @@ This project demonstrates an edge AI + IoT pipeline where a Raspberry Pi perform
 
 ## ⚙️ Setup
 ```bash
-git clone https://github.com/dkdenkyi/EdgeVision-Raspberry-Pi-Object-Detection-with-ESP32-Alert-System.git
-cd EdgeVision-Raspberry-Pi-Object-Detection-with-ESP32-Alert-System
+## Download Model
+
+cd models
+
+wget https://github.com/chuanqi305/MobileNet-SSD/raw/master/MobileNetSSD_deploy.caffemodel
+wget https://github.com/chuanqi305/MobileNet-SSD/raw/master/MobileNetSSD_deploy.prototxt
+
 pip install -r requirements.txt
 python src/detector.py
 ```
