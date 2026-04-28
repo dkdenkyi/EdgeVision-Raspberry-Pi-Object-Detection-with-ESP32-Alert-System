@@ -18,7 +18,6 @@ This project demonstrates an edge AI + IoT pipeline where a Raspberry Pi perform
 ---
 
 ## 🏗️ Architecture
-
 ![Architecture](docs/architecture.png)
 
 ---
@@ -59,11 +58,12 @@ sudo systemctl start mosquitto
 
 - Upload code to ESP32.
 
-
 ---
 
 ## ⚡ Workflow
 Camera → Raspberry Pi → Detection → MQTT → ESP32 → LED
+
+---
 
 ## ⚡ How It Works
 1. Camera captures live video feed
@@ -89,6 +89,8 @@ Camera → Raspberry Pi → Detection → MQTT → ESP32 → LED
    - Industrial monitoring
    - Smart home automation
    - Object-triggered alert systems
+
+---
 
 ## 📌 Author
 Kojo Denkyi
