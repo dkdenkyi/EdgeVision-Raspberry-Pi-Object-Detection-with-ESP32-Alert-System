@@ -48,6 +48,7 @@ sudo systemctl start mosquitto
 
 ## 🔧 ESP32
 Upload `esp32/led_control.ino` and configure WiFi + MQTT.
+![Esp32_Wiring](docs/esp32_wiring.png)
 
 ---
 
