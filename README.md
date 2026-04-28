@@ -76,19 +76,19 @@ Camera → Raspberry Pi → Detection → MQTT → ESP32 → LED
 ---
 
 ## 🔮 Future Improvements
-🔔 Add buzzer or multiple output devices
-📱 Mobile notifications (via cloud integration)
-📊 Dashboard for monitoring detections
-🧠 Custom-trained object detection model
-☁️ Cloud logging and analytics
+   - 🔔 Add buzzer or multiple output devices
+   - 📱 Mobile notifications (via cloud integration)
+   - 📊 Dashboard for monitoring detections
+   - 🧠 Custom-trained object detection model
+   - ☁️ Cloud logging and analytics
 
 ---
 
 📌 Use Cases
-Smart surveillance systems
-Industrial monitoring
-Smart home automation
-Object-triggered alert systems
+   - Smart surveillance systems
+   - Industrial monitoring
+   - Smart home automation
+   - Object-triggered alert systems
 
 ## 📌 Author
 Kojo Denkyi
